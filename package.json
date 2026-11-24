@@ -1,0 +1,15 @@
+{
+  "name": "shop-project",
+  "version": "1.0.0",
+  "description": "Контрольная точка: Вариант 4. Магазин (Sequelize, Category 1:N Product)",
+  "main": "queries.js",
+  "scripts": {
+    "seed": "node seed.js",
+    "queries": "node queries.js",
+    "start": "node seed.js && node queries.js"
+  },
+  "dependencies": {
+    "sequelize": "^6.37.5",
+    "sqlite3": "^5.1.7"
+  }
+}
